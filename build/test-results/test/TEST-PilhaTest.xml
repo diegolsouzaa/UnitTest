@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PilhaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-01-26T20:03:31" hostname="S2IT-UOL-0057" time="0.015">
+  <properties/>
+  <testcase name="testNaoAdicionaLivrosAlemDoLimite()" classname="PilhaTest" time="0.015"/>
+  <system-out><![CDATA[Nao falo com banco de dados
+Nao falo com banco de dados
+Nao falo com banco de dados
+Nao falo com banco de dados
+Nao falo com banco de dados
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
