@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VendaTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-03T16:18:36" hostname="S2IT-UOL-0057" time="0.094">
+  <properties/>
+  <testcase name="testCheckoutVendaNaoConcluidaSeClienteServiceFalhar()" classname="VendaTest" time="0.094"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

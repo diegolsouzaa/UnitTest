@@ -1,4 +1,9 @@
-package PACKAGE_NAME;
+public class CreditoService implements ICredito {
 
-public class CreditoService {
+
+    @Override
+    public double getLimite(String cpf) {
+        System.out.println("Consultando admnistradora de cartoes...");
+        return 1500;
+    }
 }

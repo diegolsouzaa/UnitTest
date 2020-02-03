@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
 public interface ICredito {
+    double getLimite (String cpf);
 }

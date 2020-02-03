@@ -1,15 +1,19 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.mockito.configuration.IMockitoConfiguration;
+
+import static org.mockito.Mockito.*;
 
 public class PilhaTest {
 
-    Pilha pilha = new Pilha(new FakePilhaDAO());
+
+    IPilhaDAO pilhaDao = mock(IPilhaDAO.class);
 
 
     @Test
     public void testeRetiraUltimoLivro(){
 
-
+        Pilha pilha = new Pilha(pilhaDao);
         Livro livro = new Livro("A fortaleza");
         pilha.Push(livro);
 
@@ -27,7 +31,7 @@ public class PilhaTest {
     @Test
     public void testNaoAdicionaLivrosAlemDoLimite(){
 
-
+        Pilha pilha = new Pilha(pilhaDao);
         Livro livro1 = new Livro("A fortaleza");
         Livro livro2 = new Livro("A emboscada");
         Livro livro3 = new Livro("O palhaço");
