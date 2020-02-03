@@ -25,7 +25,7 @@ public class RetanguloTest {
 
         int resultado = retangulo.calcularPerimetro();
 
-        Assertions.assertEquals(88, resultado);
+        Assertions.assertEquals(24, resultado);
 
     }
 
