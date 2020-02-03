@@ -8,7 +8,6 @@ public class RetanguloTest {
     Retangulo retangulo;
 
     @Test
-    @DisplayName("nome um")
     public void testCalculaArea() {
         retangulo = new Retangulo(10, 2);
         int resultadoEsperado = 20;
@@ -20,7 +19,6 @@ public class RetanguloTest {
 
 
     @Test
-    @DisplayName("nome dois")
     public void testCalcularPerimetro(){
         retangulo = new Retangulo(10,2);
         int resultdoEsperado = 24;
